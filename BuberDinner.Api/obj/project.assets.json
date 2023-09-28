@@ -641,11 +641,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
+      "projectUniqueName": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
       "projectName": "BuberDinner.Api",
-      "projectPath": "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
+      "projectPath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
       "packagesPath": "C:\\Users\\Bertrand\\.nuget\\packages\\",
-      "outputPath": "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Api\\obj\\",
+      "outputPath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bertrand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -666,8 +666,8 @@
             "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
               "projectPath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj"
             },
-            "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {
-              "projectPath": "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj"
+            "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {
+              "projectPath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj"
             },
             "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj": {
               "projectPath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj"

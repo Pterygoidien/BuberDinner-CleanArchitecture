@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {}
+    "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {
+    "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
+        "projectUniqueName": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
         "projectName": "BuberDinner.Contracts",
-        "projectPath": "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
+        "projectPath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
         "packagesPath": "C:\\Users\\Bertrand\\.nuget\\packages\\",
-        "outputPath": "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\obj\\",
+        "outputPath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bertrand\\AppData\\Roaming\\NuGet\\NuGet.Config",

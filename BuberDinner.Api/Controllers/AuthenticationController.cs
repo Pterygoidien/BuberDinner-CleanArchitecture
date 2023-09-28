@@ -1,10 +1,11 @@
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
-
-using BuberDinner.Application.Common.Errors;
-using BuberDinner.Application.Services.Authentication;
 using BuberDinner.Contracts.Authentication;
 using BuberDinner.Domain.Common.Errors;
+using BuberDinner.Application.Services.Authentication.Common;
+using BuberDinner.Application.Services.Authentication.Commands;
+using BuberDinner.Application.Services.Authentication.Queries;
+
 
 namespace BuberDinner.Api.Controllers;
 
@@ -12,18 +13,23 @@ namespace BuberDinner.Api.Controllers;
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
-    private readonly IAuthenticationService _authenticationService;
+    private readonly IAuthenticationCommandService _authenticationCommandService;
+    private readonly IAuthenticationQueryService _authenticationQueryService;
 
-    public AuthenticationController(IAuthenticationService authenticationService)
+
+    public AuthenticationController(IAuthenticationCommandService authenticationCommandService,
+        IAuthenticationQueryService authenticationQueryService)
     {
-        _authenticationService = authenticationService;
+        _authenticationQueryService = authenticationQueryService;
+        _authenticationCommandService = authenticationCommandService;
     }
+
 
     [HttpPost("register")]
     public IActionResult Register(RegisterRequest request)
     {
         var (FirstName, LastName, Email, Password) = request;
-        ErrorOr<AuthenticationResult> authResult = _authenticationService.Register(
+        ErrorOr<AuthenticationResult> authResult = _authenticationCommandService.Register(
             FirstName,
             LastName,
             Email,
@@ -42,7 +48,7 @@ public class AuthenticationController : ApiController
     public IActionResult Login(LoginRequest request)
     {
         var (Email, Password) = request;
-        ErrorOr<AuthenticationResult> authResult = _authenticationService.Login(Email, Password);
+        ErrorOr<AuthenticationResult> authResult = _authenticationQueryService.Login(Email, Password);
 
         if (authResult.IsError && authResult.FirstError == Errors.Authentication.InvalidCredentials)
         {

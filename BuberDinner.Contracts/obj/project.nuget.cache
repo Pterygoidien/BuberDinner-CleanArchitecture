@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9eN/81rxVXc4z7Ustur/tQHsLA+l7Nfh3t1hRyYdeZ56RLKuyYMwq6MMrnX2jcUdGqvgo/dCynEDjCN42YmFug==",
+  "dgSpecHash": "vskSmY/k5CR2yN4D82c3NidS36kr1ZcLnol8jdrQsdtcQmdMZ9OLf6jKYdv+EQuZYwplX0+skTjYR6E7O1M6hA==",
   "success": true,
-  "projectFilePath": "C:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
+  "projectFilePath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
