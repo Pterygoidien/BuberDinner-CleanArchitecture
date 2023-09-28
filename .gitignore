@@ -1,0 +1,3 @@
+#Ignore ASP.NET obj and bin folders.
+*/obj/*
+*/bin/*
