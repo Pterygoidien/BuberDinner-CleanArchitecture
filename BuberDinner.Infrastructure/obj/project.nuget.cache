@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "d8qz69getjIJ+g+bKBwS5PMJPkCZqio0Fa//zR0G6JI/uDE9le2KnxGegtT2Qq9gMmL7zRSqotP2ShY9EBSeUw==",
+  "success": true,
+  "projectFilePath": "c:\\Programmation\\Tutorials\\C-sharp\\aspnet-clean-architecture-api\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bertrand\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.0\\microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\7.0.0\\microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.0\\microsoft.identitymodel.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.0\\microsoft.identitymodel.jsonwebtokens.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.0\\microsoft.identitymodel.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.0\\microsoft.identitymodel.tokens.7.0.0.nupkg.sha512",
+    "C:\\Users\\Bertrand\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.0\\system.identitymodel.tokens.jwt.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
