@@ -1,5 +1,6 @@
 #Ignore ASP.NET obj and bin folders.
 */obj/*
 */bin/*
-#Ignore .vscode folder
-*/.vscode/*
+#Ignore .vs folder
+.vs/*
+.vscode/
