@@ -13,29 +13,20 @@ namespace BuberDinner.Api.Controllers;
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
-    private readonly IAuthenticationCommandService _authenticationCommandService;
-    private readonly IAuthenticationQueryService _authenticationQueryService;
+    private readonly IMediator _mediator;
 
-
-    public AuthenticationController(IAuthenticationCommandService authenticationCommandService,
-        IAuthenticationQueryService authenticationQueryService)
+    public AuthenticationController(IMediator mediator)
     {
-        _authenticationQueryService = authenticationQueryService;
-        _authenticationCommandService = authenticationCommandService;
+        _mediator = mediator;
     }
 
 
     [HttpPost("register")]
-    public IActionResult Register(RegisterRequest request)
+    public async IActionResult Register(RegisterRequest request)
     {
         var (FirstName, LastName, Email, Password) = request;
-        ErrorOr<AuthenticationResult> authResult = _authenticationCommandService.Register(
-            FirstName,
-            LastName,
-            Email,
-            Password
-        );
-
+        var command = new RegisterCommand(FirstName, LastName, Email, Password);
+        ErrorOr<AuthenticationResult> authResult = await _mediator.Send(command)
         return authResult.Match<IActionResult>(
             authResult => Ok(MapAuthResult(authResult)),
             errors => Problem(errors)
